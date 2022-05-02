@@ -58,7 +58,7 @@ class Ansamble(object):
                'KNN     ':createKNN, 'Busting ':createBusting, 'Bagging ': createBagging,
                'Stacking':createStacking}   
         
-k=10
+k=100
 res=np.zeros((7,k))
 test1=Ansamble();
 for i,j in enumerate(test1.methods):
